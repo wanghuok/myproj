@@ -8,4 +8,5 @@
 
 class DomaintoolPipeline(object):
     def process_item(self, item, spider):
+	print item['path']
         return item
